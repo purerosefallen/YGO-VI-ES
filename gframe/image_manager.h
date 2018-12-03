@@ -57,7 +57,7 @@ public:
 	irr::video::ITexture* tLScale[14];
 	irr::video::ITexture* tClock;
 	irr::video::ITexture* tLPBarFrame;
-	std::list<std::string> support_types;
+	std::vector<std::string> support_types;
 };
 
 extern ImageManager imageManager;

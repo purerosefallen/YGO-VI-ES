@@ -64,6 +64,8 @@ solution "ygo"
 
     include "ocgcore"
     include "gframe"
+    include "ikpmp3"
+    include "lua"
     if os.ishost("windows") then
     include "event"
     include "freetype"
